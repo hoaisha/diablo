@@ -1,4 +1,7 @@
-# Compiling
+## Compiling
+
+<details>
+<summary><strong>Description</strong></summary>
 
 The standard glibc version on your system might be different with me. If it is, there will be differences in how the heap works. This doc shows you how to compile libc from source, and compile binaries to link against that, for further use (compiling, debugging, testing...). I write this based on this [ref](https://github.com/guyinatuxedo/Shogun/blob/main/compiling/compiling.md).
 
@@ -7,8 +10,10 @@ The current versions we are working with is `2.3x` (mostly `2.31`, `2.35`, `2.3
 But for the `2.31` version, since my OS is `wsl2 ubuntu 22.04.5 LTS`, building a glibc from source code is harder, `chatgpt` helped me a lot. 
 > I'm not a god btw :(
 
+</details>
+
 ---
-# For `2.35+` versions
+## For `2.35+` versions
 
 ## Compiling Libc
 
@@ -113,7 +118,7 @@ Then, from the `build` directory, we configure glibc for compiling:
 CXX=true CC=gcc-9 ../configure --prefix=$HOME/glibc-2.31/compiled-2.31 --disable-werror --without-selinux
 ```
 
-> Ah this is awful, this command tells the build system:
+> Ah this is awful, this (`chatgpt`'s) command tells the build system:
 > - Use `gcc-9` as the C compiler
 > - Pretend the C++ compiler is `true` (disabled)
 > - Disable SELinux support
@@ -147,12 +152,10 @@ $   gcc-9 -nostartfiles tmp.c -o tmp \
   -Wl,--dynamic-linker=$HOME/glibc-2.31/compiled-2.31/lib/ld-linux-x86-64.so.2
 ```
 
-> This is even more awful, explaination (for further handle errors):
+> This is even more awful, (`chatgpt`'s) explaination (for further handle errors):
 > - `gcc-9`: use `gcc` version 9, which may be compatible with building older glibc versions.
 > - `-nostartfiles`: prevents `gcc` from automatically adding startup files (`crt1.o`, `crti.o`, `crtn.o`). You’ll manually specify them instead (see below). This avoids conflicts with the system startup files.
-> - `tmp.c`: the C source file to compile.
-> - `-o tmp`: name the output binary as `tmp`.
-> - `-I$HOME/glibc-2.31/compiled-2.31/include`: Use headers from your custom glibc 2.31 build, not the system's.
+> - `-I$HOME/glibc-2.31/compiled-2.31/include`: use headers from your custom glibc 2.31 build, not the system's.
 > - `$HOME/glibc-2.31/compiled-2.31/lib/crt1.o`, `crti.o`, `crtn.o`: these are glibc startup object files, required for initialization and finalization of a program.
 > 	- `crt1.o`: defines the `_start` symbol
 > 	- `crti.o`: sets up `.init`/`.fini` sections
