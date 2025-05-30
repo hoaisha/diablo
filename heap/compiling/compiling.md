@@ -14,10 +14,11 @@ But for the `2.31` version, since my OS is `wsl2 ubuntu 22.04.5 LTS`, building a
 </p>
 </details>
 
----
 ## For `2.35+` versions
 
-## Compiling Libc
+<details>
+<summary><strong>Compiling Libc</strong></summary>
+<p>
 
 So, first off we need to download the glibc source code. You can find the mirrors at `https://www.gnu.org/software/libc/`. I recommend you download from the `/home/usr` folder (like me):
 
@@ -62,7 +63,12 @@ $   make install
  . . .
 ```
 
-## Compile Binaries to Linking Against to new Libc
+</p>
+</details>
+
+<details>
+<summary><strong>Compile binaries to linking against to new Libc</strong></summary>
+<p>
 
 To compile binaries to link against the newly compiled libc version:
 
@@ -90,10 +96,14 @@ It should shows something like this:
 
 ![](pics/img00.png)
 
----
-# For `2.31` version
+</p>
+</details>
 
-## Compiling Libc
+## For `2.31` version
+
+<details>
+<summary><strong>Compiling Libc</strong></summary>
+<p>
 
 Download, extract the glibc code, and create the build directory:
 
@@ -135,7 +145,12 @@ $   make -j
 $   make install
 ```
 
-## Compile Binaries to Linking Against to new Libc
+</p>
+</details>
+
+<details>
+<summary><strong>Compile binaries to linking against to new Libc</strong></summary>
+<p>
 
 To compile binaries to link against the newly compiled libc version.
 
@@ -167,10 +182,19 @@ $   gcc-9 -nostartfiles tmp.c -o tmp \
 > - `-Wl,--rpath=...`: embed a runtime search path into the binary. This tells the dynamic linker to look for shared libraries in your custom glibc's directory at runtime.
 > - `-Wl,--dynamic-linker=...`: set the dynamic linker (interpreter) to your custom glibc's `ld-linux-x86-64.so.2`, instead of the system one. This ensures your binary uses your glibc at runtime.
 
-## Verify
+</p>
+</details>
+
+<details>
+<summary><strong>Recheck</strong></summary>
+<p>
 
 Write a small C program, compile it and use `gdb` to check. It should shows something like this:
 
 ![](pics/img01.png)
 
 I don't know if it's stable for the future compiling... If there is any error, go ask for help.
+
+</p>
+</details>
+
