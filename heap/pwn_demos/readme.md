@@ -6,16 +6,16 @@
 
 - **Foward consolidation**
 	link
-> abc
+	> abc
 
 
 - **Backward consolidation**
-   * link
-> *abc
+	- link
+	> abc
 
 - **Overlapping consolidation**
 	- link
-> abc
+	> abc
 
 - **Top consolidation**
 	- link
