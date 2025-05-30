@@ -6,7 +6,7 @@
 
 The standard glibc version on your system might be different with me. If it is, there will be differences in how the heap works. This doc shows you how to compile libc from source, and compile binaries to link against that, for further use (compiling, debugging, testing...). I write this based on this [ref](https://github.com/guyinatuxedo/Shogun/blob/main/compiling/compiling.md).
 
-The current versions we are working with is `2.3x` (mostly `2.31`, `2.35`, `2.38` and `2.39`). There are some big changes between those versions, which effect a lot on exploits. This ref only guides you set up version `2.38`, you can do the same way for the others (`2.35` and `2.39`). 
+The current versions we are working with is `2.3x` (mostly `2.31`, `2.35`, `2.38` and `2.39`). There are some big changes between those versions, which affect a lot on exploits. This ref only guides you set up version `2.38`, you can do the same way for the others (`2.35` and `2.39`). 
 
 But for the `2.31` version, since my OS is `wsl2 ubuntu 22.04.5 LTS`, building a glibc from source code is harder, `chatgpt` helped me a lot. 
 > I'm not a god btw :(
