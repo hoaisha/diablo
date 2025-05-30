@@ -11,7 +11,7 @@
 
 - **Backward consolidation**
    * link
-> abc
+> *abc
 
 - **Overlapping consolidation**
 	- link
@@ -21,7 +21,7 @@
 	- link
 > abc
 
-- ** Overlapping mmap**
+- **Overlapping mmap**
 	- link
 > abc
 
