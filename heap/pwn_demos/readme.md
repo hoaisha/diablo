@@ -1,5 +1,7 @@
 ## Primitives
 
+Various "pure (heap's) primitives" we can (ab)use to set up for futher exploitation.
+
 ### Malloc
 
 <details>
@@ -194,8 +196,17 @@
 ---
 ## Techniques
 
-### Overlapping & Rewrite memory
+Leverage heap's bugs/primitives to get code execution.
+
+### Overlapping && rewrite memory
+
+abc
 
 ### Remote code execution
 
+abc
+
 ### Houses
+
+abc
+
