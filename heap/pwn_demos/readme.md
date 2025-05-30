@@ -4,9 +4,8 @@
 <summary><strong>Malloc</strong></summary>
 <p>
 
-<div style="margin-left: 2em;">
 <details>
-	<summary><strong>Overlapping</strong></summary>
+	<summary>Overlapping</summary>
 <p>
 
 - **Foward consolidation**
@@ -31,7 +30,6 @@
 
 </p>
 </details>
-</div>
 
 </p>
 </details>
