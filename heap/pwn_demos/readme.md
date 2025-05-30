@@ -5,7 +5,7 @@
 <p>
 
 <details>
-<summary><strong>Overlapping</strong></summary>
+	<summary><strong>Overlapping</strong></summary>
 <p>
 
 - **Foward consolidation**
