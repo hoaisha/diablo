@@ -1,11 +1,9 @@
 ## Primitives
 
-<details>
-<summary><strong>Malloc</strong></summary>
-<p>
+### Malloc
 
 <details>
-	<summary>Overlapping</summary>
+<summary><strong>Overlapping</strong></summary>
 <p>
 
 - **Foward consolidation**
@@ -31,26 +29,27 @@
 </p>
 </details>
 
-</p>
-</details>
+### Tcache
 
 <details>
-<summary><strong>Tcache</strong></summary>
+<summary>Tcache linked list attack</summary>
 <p>
 
 - **Tcache poisoning**
 	- link
 	> abc
 
-- **Tcache double free**
-	- link
-	> abc
-
-- **
-
 </p>
 </details>
 
+<details>
+<summary>Tcache double free</summary>
+<p>
+
+abc
+
+</p>
+</details>
 
 ## Techniques
 
