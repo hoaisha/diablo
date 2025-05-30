@@ -116,7 +116,7 @@
 	> abc
 
 </p>
-</summary>
+</details>
 
 ### Unsortedbin
 
