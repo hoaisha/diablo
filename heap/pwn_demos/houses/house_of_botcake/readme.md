@@ -26,7 +26,7 @@ house of botcake core mindset is to find a way modify key value, bypass this res
 <summary><strong>POC</strong></summary>
 <p>
 
-> I compiled this with glibc `2.39`
+> I compiled this with glibc `2.35`, `2.38` and `2.39`
 
 ```c
 #include <stdio.h>
