@@ -7,7 +7,7 @@ Various ROP (or buffer overflow style) challenges/tricks/techniques.
 <p>
 
 - **Dreamhack wargame** --> pop rdi
-	- [write-up](/challs/dreamhack/pop_rdi)
+	- [write-up](/challs/dreamhack/pop_rdi/readme.md)
 	> restricted gadget, use stack pivot + add_gadget to modify saved registers values during functions internal...
 
 </p>
