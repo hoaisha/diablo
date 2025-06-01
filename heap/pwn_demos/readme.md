@@ -1,6 +1,6 @@
 ## Primitives
 
-Various "pure (heap's) primitives" we can (ab)use to set up for futher exploitation.
+Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 
 ### Malloc
 
@@ -198,15 +198,16 @@ Various "pure (heap's) primitives" we can (ab)use to set up for futher exploitat
 
 Leverage heap's bugs/primitives to get code execution.
 
-### Overlapping && rewrite memory
-
-abc
-
 ### Remote code execution
 
-abc
+<details>
+<summary><strong>Houses</strong></summary>
+<p>
 
-### Houses
+- **House of botcake**
+	- [docs](/heap/pwn_demos/houses/house_of_botcake/readme.md)
+	> **double free primitive**, bypass tcache dbf's key check, making overlapping chunk, return arbitrary allocation...
 
-abc
+</p>
+</details>
 
