@@ -1,1 +1,1 @@
-Folder for binary files.
+Folder for binary files and their write-up.
