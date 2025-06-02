@@ -206,7 +206,7 @@ Leverage heap's bugs/primitives to get code execution.
 
 - **libc GOT entries**
 	- [docs](/heap/pwn_demos/targetting/got_libc/readme.md)
-	> similar to GOT overwrite, **usable until < `2.39`**...
+	> similar to GOT overwrite...
 
 </p>
 </details>
