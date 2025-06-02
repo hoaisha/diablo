@@ -48,7 +48,7 @@ let's have a look to a part of these got entries (as the list is a bit long):
 
 these functions in GOT are called by many other libc functions... To know which GOT entry you should target, you can look at libc disassembly (which i only and usually do...)
 
-for example, libc `puts()` function is calling `__strlen_avx2` (in "my" global libc `2.38`):
+for example, libc `puts()` function is calling `__strlen_avx2` (in my global libc `2.38`):
 
 ![](pics/img03.png)
 
@@ -56,9 +56,9 @@ here i modify value at `0x7ffff7fb2090` to `&system`, as a proof of concept, pro
 
 ![](pics/img04.png)
 
-very nice! also, you can put a `one_gadget` there, similar with exploiting `__malloc_gook`/`__free_hook`,...
+very nice! also, you can put a `one_gadget` there, similar with exploiting `__malloc_hook`/`__free_hook`,...
 
-if your gadget does not pass the contrainst, you can see these blog also (they will help):
+if your gadget does not pass the contrainst, you should see these blog (very helpful):
 - https://github.com/nobodyisnobody/write-ups/tree/main/RCTF.2022/pwn/bfc#code-execution-inferno
 - https://robbert1978.github.io/2023/02/27/2023-2-28-Re-Acsc-2023/
 
