@@ -201,6 +201,17 @@ Leverage heap's bugs/primitives to get code execution.
 ### Remote code execution
 
 <details>
+<summary><strong>Targetting</strong></summary>
+<p>
+
+- **libc GOT entries**
+	- [docs](/heap/pwn_demos/targetting/got_libc/readme.md)
+	> similar to GOT overwrite, **usable until < `2.39`**...
+
+</p>
+</details>
+
+<details>
 <summary><strong>Houses</strong></summary>
 <p>
 
