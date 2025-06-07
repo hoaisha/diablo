@@ -24,7 +24,7 @@ void main() {
     setbuf(stdin, NULL); // disable buffering so _IO_FILE does not interfere with our heap
     setbuf(stdout, NULL);
 
-    long *chunk0, *chunk1, *chunk2, *consolidated_chunk, *consolidated_chunk_end;
+    long *chunk0, *chunk1, *chunk2, *consolidated_chunk;
 
     chunk0 = malloc(0x20); // this chunk stored fake main_arena
     chunk1 = malloc(0x420);
@@ -63,7 +63,7 @@ void main() {
 <p>
 
 - https://github.com/guyinatuxedo/Shogun/blob/main/pwn_demos/malloc/fwd_consolidation/readme.md
-> i modified it a little (easier?)...
+> i modified it a little (easier to use?)...
 
 </p>
 </details>
