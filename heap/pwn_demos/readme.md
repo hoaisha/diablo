@@ -10,11 +10,11 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 
 - **Foward consolidation**
 	- [docs](/heap/pwn_demos/malloc/foward_consolidation/readme.md)
-	> abc
+	> using forward consolidation to get overlapping memory...
 
 - **Backward consolidation**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/malloc/backward_consolidation/readme.md)
+	> using back consolidation to reallocate a chunk that wasn't freed...
 
 - **Overlapping consolidation**
 	- link
