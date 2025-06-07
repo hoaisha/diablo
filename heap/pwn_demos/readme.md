@@ -9,7 +9,7 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Foward consolidation**
-	- link
+	- [docs](/heap/pwn_demos/malloc/foward_consolidation/readme.md)
 	> abc
 
 - **Backward consolidation**
