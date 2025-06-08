@@ -17,8 +17,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 	> using back consolidation to reallocate a chunk that wasn't freed...
 
 - **Overlapping consolidation**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/malloc/overlapping_consolidation/readme.md)
+	> using consolidation to reallocate a chunk that wasn't freed...
 
 - **Top consolidation**
 	- link
