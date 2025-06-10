@@ -79,8 +79,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Tcache fake chunk**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/tcache/tcache_fake_chunk/readme.md)
+	> nserting a fake chunk with free into the tcache...
 
 </p>
 </details>
