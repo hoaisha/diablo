@@ -60,8 +60,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Tcache key double**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/tcache/tcache_key_double/readme.md)
+	> successful tcache double free via modify tcache chunk's key...
 
 - **Tcache fastbin double**
 	- link
