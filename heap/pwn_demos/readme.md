@@ -49,8 +49,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Tcache poisoning**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/tcache/tcache_poisoning/readme.md)
+	> poisoning next ptr of tcache bin to get arbitrary malloc...
 
 </p>
 </details>
