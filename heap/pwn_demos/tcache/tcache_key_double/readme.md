@@ -46,3 +46,13 @@ int main()
 
 </p>
 </details>
+
+<details>
+<summary><strong>Ref</strong></summary>
+<p>
+
+- https://github.com/guyinatuxedo/Shogun/blob/main/pwn_demos/tcache/tcache_double_pass/readme.md
+- https://github.com/johnathanhuutri/CTFNote/tree/master/Heap-Exploitation#double-free-table-of-content
+
+</p>
+</details>
