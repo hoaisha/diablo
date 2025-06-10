@@ -64,8 +64,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 	> successful tcache double free via modify tcache chunk's key...
 
 - **Tcache fastbin double**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/tcache/tcache_fastbin_double/readme.md)
+	> successful tcache double free between tcache/fastbin...
 
 - **Tcache size double**
 	- link
