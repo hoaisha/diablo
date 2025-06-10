@@ -26,6 +26,8 @@ this attack relies on altering the next ptr of a tcache chunk. After we have alt
 <summary><strong>POC</strong></summary>
 <p>
 
+> compiled with glibc `2.35`, `2.38` and `2.39`
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -77,6 +79,8 @@ int main()
 <details>
 <summary><strong>POC</strong></summary>
 <p>
+
+> compiled with glibc `2.31`
 
 ```c
 #include <stdio.h>
