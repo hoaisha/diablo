@@ -68,8 +68,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 	> successful tcache double free between tcache/fastbin...
 
 - **Tcache size double**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/tcache/tcache_size_double/readme.md)
+	> successful tcache double free between different size...
 
 </p>
 </details>
