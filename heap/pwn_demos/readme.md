@@ -80,7 +80,7 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 
 - **Tcache fake chunk**
 	- [docs](/heap/pwn_demos/tcache/tcache_fake_chunk/readme.md)
-	> nserting a fake chunk with free into the tcache...
+	> inserting a fake chunk with free into the tcache...
 
 </p>
 </details>
