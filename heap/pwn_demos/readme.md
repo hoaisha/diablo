@@ -174,8 +174,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 	> allocate chunk into stack leveraging large bin linked list...
 
 - **Largebin skip poisoning**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/largebin/largebin_skip_poisoning/readme.md) (update this)
+	> allocate chunk into stack leveraging large bin skip list...
 
 - **Largebin attack**
 	- link
@@ -191,8 +191,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Smallbin poisoning**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/smallbin/smallbin_poisoning/readme.md)
+	> allocate chunk into the stack leveraging small bin linked list...
 
 </p>
 </details>
