@@ -103,8 +103,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Fastbin double**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/fastbin/fastbin_double/readme.md)
+	> successful fastbin double free...
 
 </p>
 </details>
