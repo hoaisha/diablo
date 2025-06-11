@@ -50,7 +50,7 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 
 - **Tcache poisoning**
 	- [docs](/heap/pwn_demos/tcache/tcache_poisoning/readme.md)
-	> poisoning next ptr of tcache bin to get arbitrary malloc...
+	> poisoning next ptr of tcache bin to get arbitrary allocate...
 
 </p>
 </details>
@@ -92,8 +92,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Fastbin poisoning**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/fastbin/fastbin_poisoning/readme.md)
+	> poisoning next ptr of fastbin to get arbitrary allocate...
 
 </p>
 </details>
