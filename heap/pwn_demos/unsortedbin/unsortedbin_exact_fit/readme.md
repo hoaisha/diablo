@@ -67,3 +67,13 @@ so this process is going to be a bit simpler than previous techniques that produ
 in this context, we will start off with two chunks, one of size `0x430` and the other of size `0x90`. We will expand the `0x430` chunk `0x50` bytes. So we will set the size of the `0x430` chunk, to `0x480`. Then in the `0x90` chunk, `0x50` bytes after the actual heap chunk header, we will make a fake heap chunk header. We will set its `prev_size` to `0x480`, and the chunk size to `0x40`. Then, we will just allocate a chunk size of `0x480`, which will give us the overlapping chunk.
 
 </p>
+</details>
+
+<details>
+<summary><strong>Ref</strong></summary>
+<p>
+
+- https://github.com/guyinatuxedo/Shogun/blob/main/pwn_demos/unsorted_bin/exact_fit/readme.md
+
+</p>
+</details>
