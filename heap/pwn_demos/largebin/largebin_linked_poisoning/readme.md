@@ -82,7 +82,7 @@ after that, we will insert our fake stack large bin chunk into the large bin. We
 after that, all that is left is to allocate it. If there are multiple chunks of the same size in the large bin, the large bin will allocate chunks not in the skip list first, so it doesn't have to update the skip list. So it will directly allocate our fake chunk, which is the foward chunk of the one has skip list.
 
 </p>
-</summary>
+</details>
 
 <details>
 <summary><strong>Ref</strong></summary>
