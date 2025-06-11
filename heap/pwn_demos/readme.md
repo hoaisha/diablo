@@ -131,8 +131,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 	> allocate overlapping chunks via exact fit mechanism...
 
 - **Unsortedbin last remainder**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/unsortedbin/unsortedbin_last_remainder/readme.md)
+	> reallocate allocated chunks without freeing, via leveraging the last_remainder...
 
 </p>
 </details>
