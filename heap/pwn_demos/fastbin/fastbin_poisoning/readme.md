@@ -72,7 +72,7 @@ void main() {
 </p>
 </details>
 
-<detail>
+<details>
 <summary><strong>Comment</strong></summary>
 <p>
 
