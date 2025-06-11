@@ -18,9 +18,6 @@ we will be trying to get malloc to allocate a ptr on the stack. This will be don
 #include <stdio.h>
 #include <stdlib.h>
 
-#define CHUNK_SIZE0 0x420
-#define CHUNK_SIZE1 0x080
-
 void main() {
     setbuf(stdin, NULL); // disable buffering so _IO_FILE does not interfere with our heap
     setbuf(stdout, NULL);
