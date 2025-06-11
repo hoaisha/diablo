@@ -127,8 +127,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Unsortedbin exact fit**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/unsortedbin/unsortedbin_exact_fit/readme.md)
+	> allocate overlapping chunks via exact fit mechanism...
 
 - **Unsortedbin last remainder**
 	- link
