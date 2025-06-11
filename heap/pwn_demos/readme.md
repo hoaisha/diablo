@@ -142,8 +142,8 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Unsortedbin poisoning**
-	- link
-	> abc
+	- [docs](/heap/pwn_demos/unsortedbin/unsortedbin_poisoning/readme.md)
+	> allocate chunk into stack leveraging unsortedbin linked list...
 
 - **Unsortedbin attack (?)**
 	- link
