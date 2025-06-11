@@ -9,6 +9,17 @@ we will be trying to get malloc to allocate a ptr on the stack. This will be don
 </p>
 </details>
 
+<details>
+<summary><strong>Ref</strong></summary>
+<p>
+
+- https://github.com/guyinatuxedo/Shogun/blob/main/bin_overviews/small_bins.md
+- https://github.com/guyinatuxedo/Shogun/blob/main/pwn_demos/small_bin/linked_list/readme.md
+> i modified it a little bit (more general?) (but its worth read)
+
+</p>
+</details>
+
 ### For `2.32+` versions
 
 <details>
