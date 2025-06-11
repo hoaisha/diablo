@@ -170,10 +170,14 @@ Various "pure (heap's) primitives" we can (ab)use for futher exploitation.
 <p>
 
 - **Largebin linked poisoning**
+	- [docs](/heap/pwn_demos/largebin/largebin_linked_poisoning/readme.md)
+	> allocate chunk into stack leveraging large bin linked list...
+
+- **Largebin skip poisoning**
 	- link
 	> abc
 
-- **Largebin skip poisoning**
+- **Largebin attack**
 	- link
 	> abc
 
