@@ -65,8 +65,8 @@ void main() {
 
     // make our "fake" small bin chunk
     // for this, we only need to set the `prev_size` (setting it to `0x00`), and the chunk_size
-    target[0] = 0x0000000000000000; // 
-    target[1] = 0x0000000000000311;
+    // target[0] = 0x0000000000000000; // fake chunk's prev_size (usually we dont need to care about this)
+    target[1] = 0x0000000000000311; // fake chunk's size
 
     // Then we go ahead, and link this chunk against the two real small bin chunks
     target[2] = ((long)chunk0 - 0x10); // fwd
