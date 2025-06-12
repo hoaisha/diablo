@@ -114,7 +114,7 @@ the second way is beneficial to us. With the unsorted, and large bins, the chunk
 <summary><strong>Comment</strong></summary>
 <p>
 
-the smallbin itself doesnt have address aligned 0x10 check, but in higher glibc version (`2.31+`), we need to prepare fake chunk size and aligned address to prevent error when the smallbin tcache dumping occur...
+the smallbin itself doesnt have address aligned 0x10 check, but in higher glibc version (`2.32+`), we need to prepare fake chunk size and aligned address to prevent error when the smallbin tcache dumping occur...
 
 </p>
 </details>
